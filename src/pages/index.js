@@ -1,14 +1,6 @@
 import React from "react"
-import Layout from '../components/Layout'
-import {ExampleButton} from '../components/button'
+import SignIn from '../components/SignIn'
 
 export default () => (
-    <Layout>
-        <h1 style={{color:'red', textTransform:'uppercase'}}>
-           Hello from gatsby
-        </h1> 
-
-        <ExampleButton>Click Me</ExampleButton>
-       
-    </Layout>
+    <SignIn/>
 )
