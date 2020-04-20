@@ -1,9 +1,9 @@
 import React from "react"
-import SignIn from '../components/SignIn'
-import Layout from '../components/Layout'
+import Layout from "../components/Layout"
+import Header from "../components/Header"
 
 export default () => (
-    <Layout>
-         <SignIn/>
-    </Layout>
+  <Layout>
+    <Header />
+  </Layout>
 )
