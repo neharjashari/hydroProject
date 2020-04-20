@@ -5,14 +5,21 @@ import Grid from "@material-ui/core/Grid"
 import Typography from "@material-ui/core/Typography"
 import { makeStyles } from "@material-ui/core/styles"
 import Container from "@material-ui/core/Container"
-import img from "../images/image-1.jpg"
+import img from "../images/image-4.jpg"
 
 const backgroundImg = {
   backgroundImage: `url(${img})`,
-  height: "100%",
+  height: "47vw",
   backgroundPosition: "center",
   backgroundRepeat: "no-repeat",
   backgroundSize: "cover",
+  boxShadow: "inset  0 0 5rem -2rem lightgrey",
+}
+
+const textStyle = {
+  fontWeight: "800",
+  textTransform: "uppercase",
+  color: "#fff",
 }
 
 const useStyles = makeStyles(theme => ({
@@ -20,9 +27,7 @@ const useStyles = makeStyles(theme => ({
     marginRight: theme.spacing(2),
   },
   heroContent: {
-    // backgroundColor: theme.palette.background.paper,
-    // backgroundImage: "url(../images/image-1.jpg)",
-    padding: theme.spacing(8, 0, 6),
+    padding: theme.spacing(28, 0, 6),
   },
   heroButtons: {
     marginTop: theme.spacing(4),
@@ -57,34 +62,23 @@ export default function Album() {
 
       <main style={backgroundImg}>
         {/* Hero unit */}
-        <div className={classes.heroContent}>
-          <Container maxWidth="sm">
-            <Typography
-              component="h1"
-              variant="h2"
-              align="center"
-              color="textPrimary"
-              gutterBottom
-            >
+        <div className={classes.heroContent} style={textStyle}>
+          <Container maxWidth="sm" style={{}}>
+            <Typography component="h1" variant="h2" align="center" gutterBottom>
               Welcome to Nehar's
             </Typography>
-            <Typography
-              variant="h5"
-              align="center"
-              color="textSecondary"
-              paragraph
-            >
-              "React" developer :P
+            <Typography variant="h5" align="center" paragraph>
+              Biggest E-shopping Site on Kosovo
             </Typography>
             <div className={classes.heroButtons}>
               <Grid container spacing={2} justify="center">
                 <Grid item>
-                  <Button variant="contained" color="primary">
-                    Find out more
+                  <Button variant="contained" color="primary" size="large">
+                    Products
                   </Button>
                 </Grid>
                 <Grid item>
-                  <Button variant="outlined" color="primary">
+                  <Button variant="contained" color="secondary" size="large">
                     Contact us
                   </Button>
                 </Grid>
