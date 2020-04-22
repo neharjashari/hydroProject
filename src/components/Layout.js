@@ -5,6 +5,7 @@ import Footer from "./Footer/Footer"
 import "bootstrap/dist/css/bootstrap.min.css"
 import "font-awesome/css/font-awesome.min.css"
 import "../sass/templatemo-style.css"
+import "../sass/layout.scss"
 
 const Layout = ({ children }) => {
   return (
