@@ -1,29 +1,32 @@
 import React from "react"
 import { Link } from "gatsby"
-import "../css/Navbar.css"
+import "../../sass/Navbar.css"
 
 const Navbar = () => {
   return (
-    <section class="navbar custom-navbar navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
+    <section
+      className="navbar custom-navbar navbar-fixed-top"
+      role="navigation"
+    >
+      <div className="container">
+        <div className="navbar-header">
           <button
-            class="navbar-toggle"
+            className="navbar-toggle"
             data-toggle="collapse"
             data-target=".navbar-collapse"
           >
-            <span class="icon icon-bar"></span>
-            <span class="icon icon-bar"></span>
-            <span class="icon icon-bar"></span>
+            <span className="icon icon-bar"></span>
+            <span className="icon icon-bar"></span>
+            <span className="icon icon-bar"></span>
           </button>
 
-          <a href="index.html" class="navbar-brand">
+          <a href="index.html" className="navbar-brand">
             Hydro
           </a>
         </div>
 
-        <div class="navigation">
-          <ul class="nav navbar-nav navbar-nav-first">
+        <div className="navigation">
+          <ul className="nav navbar-nav navbar-nav-first">
             <li>
               <Link to="/home">Home</Link>
             </li>
@@ -41,27 +44,27 @@ const Navbar = () => {
             </li>
           </ul>
 
-          <ul class="nav navbar-nav navbar-right">
-            <div class="social-icons">
+          <ul className="nav navbar-nav navbar-right">
+            <div className="social-icons">
               <li>
                 <a href="#">
-                  <i class="fa fa-facebook-square"></i>
+                  <i className="fa fa-facebook-square"></i>
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <i class="fa fa-twitter"></i>
+                  <i className="fa fa-twitter"></i>
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <i class="fa fa-instagram"></i>
+                  <i className="fa fa-instagram"></i>
                 </a>
               </li>
             </div>
 
             <div>
-              <li class="section-btn">
+              <li className="section-btn">
                 <a href="#" data-toggle="modal" data-target="#modal-form">
                   Sign in / Join
                 </a>

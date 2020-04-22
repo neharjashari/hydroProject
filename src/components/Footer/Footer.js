@@ -3,10 +3,10 @@ import React from "react"
 const Footer = () => {
   return (
     <footer data-stellar-background-ratio="0.5">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-5 col-sm-12">
-            <div class="footer-thumb footer-info">
+      <div className="container">
+        <div className="row">
+          <div className="col-md-5 col-sm-12">
+            <div className="footer-thumb footer-info">
               <h2>Hydro Company</h2>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
@@ -15,10 +15,10 @@ const Footer = () => {
             </div>
           </div>
 
-          <div class="col-md-2 col-sm-4">
-            <div class="footer-thumb">
+          <div className="col-md-2 col-sm-4">
+            <div className="footer-thumb">
               <h2>Company</h2>
-              <ul class="footer-link">
+              <ul className="footer-link">
                 <li>
                   <a href="#">About Us</a>
                 </li>
@@ -35,10 +35,10 @@ const Footer = () => {
             </div>
           </div>
 
-          <div class="col-md-2 col-sm-4">
-            <div class="footer-thumb">
+          <div className="col-md-2 col-sm-4">
+            <div className="footer-thumb">
               <h2>Services</h2>
-              <ul class="footer-link">
+              <ul className="footer-link">
                 <li>
                   <a href="#">Pricing</a>
                 </li>
@@ -52,8 +52,8 @@ const Footer = () => {
             </div>
           </div>
 
-          <div class="col-md-3 col-sm-4">
-            <div class="footer-thumb">
+          <div className="col-md-3 col-sm-4">
+            <div className="footer-thumb">
               <h2>Find us</h2>
               <p>
                 123 Grand Rama IX, <br />
@@ -62,32 +62,32 @@ const Footer = () => {
             </div>
           </div>
 
-          <div class="col-md-12 col-sm-12">
-            <div class="footer-bottom">
-              <div class="col-md-6 col-sm-5">
-                <div class="copyright-text">
+          <div className="col-md-12 col-sm-12">
+            <div className="footer-bottom">
+              <div className="col-md-6 col-sm-5">
+                <div className="copyright-text">
                   <p>Copyright &copy; 2017 Your Company</p>
                 </div>
               </div>
-              <div class="col-md-6 col-sm-7">
-                <div class="phone-contact">
+              <div className="col-md-6 col-sm-7">
+                <div className="phone-contact">
                   <p>
                     Call us <span>(+66) 010-020-0340</span>
                   </p>
                 </div>
-                <ul class="social-icon">
+                <ul className="social-icon">
                   <li>
                     <a
                       href="https://www.facebook.com/templatemo"
-                      class="fa fa-facebook-square"
+                      className="fa fa-facebook-square"
                       attr="facebook icon"
                     ></a>
                   </li>
                   <li>
-                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" className="fa fa-twitter"></a>
                   </li>
                   <li>
-                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" className="fa fa-instagram"></a>
                   </li>
                 </ul>
               </div>

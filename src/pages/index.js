@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from "../components/Layout"
-import Header from "../components/Header"
+import Header from "../components/Header/Header"
 import About from "../components/About/About"
 import Blog from "../components/Blog/Blog"
 import OurWork from "../components/OurWork/OurWork"

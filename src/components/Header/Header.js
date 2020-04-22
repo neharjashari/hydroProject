@@ -3,13 +3,13 @@ import React from "react"
 const Header = () => {
   return (
     <section id="home" data-stellar-background-ratio="0.5">
-      <div class="overlay"></div>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 col-sm-12">
-            <div class="home-info">
+      <div className="overlay"></div>
+      <div className="container">
+        <div className="row">
+          <div className="col-md-6 col-sm-12">
+            <div className="home-info">
               <h1>We make beautiful websites for all people.</h1>
-              <a href="#about" class="btn section-btn smoothScroll">
+              <a href="#about" className="btn section-btn smoothScroll">
                 Start a project
               </a>
               <span>
@@ -19,9 +19,9 @@ const Header = () => {
             </div>
           </div>
 
-          <div class="col-md-6 col-sm-12">
-            <div class="home-video">
-              <div class="embed-responsive embed-responsive-16by9">
+          <div className="col-md-6 col-sm-12">
+            <div className="home-video">
+              <div className="embed-responsive embed-responsive-16by9">
                 <iframe
                   src="https://www.youtube.com/embed/AqcjdkPMPJA"
                   frameborder="0"
