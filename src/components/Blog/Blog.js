@@ -1,9 +1,29 @@
 import React from "react"
 import BlogCard from "./BlogCard"
+import { useStaticQuery, graphql } from "gatsby"
 
 const Blog = () => {
+  const data = useStaticQuery(graphql`
+    query GetBlogs {
+      allDataJson {
+        nodes {
+          blogs {
+            title
+            image
+            date
+            excerpt
+            buttonText
+          }
+        }
+      }
+    }
+  `)
+
+  console.log(data)
+
   const blogs = [
     {
+      id: "1",
       image: "images/blog-image1.jpg",
       date: "December 22, 2017",
       title: "How To Find Out Beautiful Workspace",
@@ -11,6 +31,7 @@ const Blog = () => {
       buttonText: "Read article",
     },
     {
+      id: "2",
       image: "images/blog-image2.jpg",
       date: "December 14, 2017",
       title: "woman sportwear",
@@ -18,6 +39,7 @@ const Blog = () => {
       buttonText: "Read more",
     },
     {
+      id: "3",
       image: "images/blog-image3.jpg",
       date: "December 18, 2017",
       title: "new creative fashion",
@@ -25,6 +47,7 @@ const Blog = () => {
       buttonText: "Read article",
     },
     {
+      id: "4",
       image: "images/blog-image4.jpg",
       date: "December 10, 2017",
       title: "minimalist design trend in 2018",
@@ -51,6 +74,7 @@ const Blog = () => {
                 title={blog.title}
                 excerpt={blog.excerpt}
                 buttonText={blog.buttonText}
+                key={blog.id}
               />
             )
           })}

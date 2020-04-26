@@ -4,25 +4,52 @@ import img2 from "../../images/work-image2.jpg"
 import img3 from "../../images/work-image3.jpg"
 import img4 from "../../images/work-image4.jpg"
 import OurWorkCard from "./OutWorkCard"
+import { useStaticQuery, graphql } from "gatsby"
 
 const OurWork = () => {
+  const data = useStaticQuery(graphql`
+    query GetCards {
+      allDataJson {
+        nodes {
+          ourwork {
+            image
+            subtitle
+            title
+          }
+        }
+      }
+    }
+  `)
+
+  // console.log(data)
+
+  const cardss = []
+  data.allDataJson.nodes.forEach(card => {
+    cardss.push(card.ourwork)
+  })
+  console.log(cardss)
+
   const cards = [
     {
+      id: "1",
       image: img1,
       title: "Clean & Minimal",
       subtitle: "Product Design",
     },
     {
+      id: "2",
       image: img2,
       title: "Studio Bag",
       subtitle: "Branding",
     },
     {
+      id: "3",
       image: img3,
       title: "Frame Design",
       subtitle: "Photography",
     },
     {
+      id: "4",
       image: img4,
       title: "Paint Work",
       subtitle: "Art, Design",
@@ -45,6 +72,7 @@ const OurWork = () => {
                 image={card.image}
                 title={card.title}
                 subtitle={card.subtitle}
+                key={card.id}
               />
             )
           })}

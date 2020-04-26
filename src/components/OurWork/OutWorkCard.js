@@ -1,6 +1,6 @@
 import React from "react"
 
-const OutWorkCard = props => {
+const OurWorkCard = props => {
   return (
     <div className="col-md-3 col-sm-6">
       <div
@@ -20,4 +20,4 @@ const OutWorkCard = props => {
   )
 }
 
-export default OutWorkCard
+export default OurWorkCard

@@ -24,8 +24,8 @@ const Header = () => {
               <div className="embed-responsive embed-responsive-16by9">
                 <iframe
                   src="https://www.youtube.com/embed/AqcjdkPMPJA"
-                  frameborder="0"
-                  allowfullscreen
+                  frameBorder="0"
+                  allowFullScreen
                 ></iframe>
               </div>
             </div>
