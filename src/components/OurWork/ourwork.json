@@ -1,0 +1,24 @@
+{
+  "data": [
+    {
+      "image": "img1",
+      "title": "Clean & Minimal",
+      "subtitle": "Product Design"
+    },
+    {
+      "image": "img1",
+      "title": "Studio Bag",
+      "subtitle": "Branding"
+    },
+    {
+      "image": "img1",
+      "title": "Frame Design",
+      "subtitle": "Photography"
+    },
+    {
+      "image": "img1",
+      "title": "Paint Work",
+      "subtitle": "Art, Design"
+    }
+  ]
+}
