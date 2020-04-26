@@ -1,15 +1,16 @@
 import React from "react"
+import img from "../../images/about-image.jpg"
 
 const About = () => {
   return (
     <section id="about" data-stellar-background-ratio="0.5">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-5 col-sm-6">
-            <div class="about-info">
-              <div class="section-title">
+      <div className="container">
+        <div className="row">
+          <div className="col-md-5 col-sm-6">
+            <div className="about-info">
+              <div className="section-title">
                 <h2>Let us introduce</h2>
-                <span class="line-bar">...</span>
+                <span className="line-bar">...</span>
               </div>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
@@ -23,65 +24,70 @@ const About = () => {
             </div>
           </div>
 
-          <div class="col-md-3 col-sm-6">
-            <div class="about-info skill-thumb">
+          <div className="col-md-3 col-sm-6">
+            <div className="about-info skill-thumb">
               <strong>Web Design</strong>
-              <span class="pull-right">85%</span>
-              <div class="progress">
+              <span className="pull-right">85%</span>
+              <div className="progress">
                 <div
-                  class="progress-bar progress-bar-primary"
+                  className="progress-bar progress-bar-primary"
                   role="progressbar"
                   aria-valuenow="85"
                   aria-valuemin="0"
                   aria-valuemax="100"
-                  style="width: 85%;"
+                  style={{ width: "85%" }}
                 ></div>
               </div>
 
               <strong>Photography</strong>
-              <span class="pull-right">90%</span>
-              <div class="progress">
+              <span className="pull-right">90%</span>
+              <div className="progress">
                 <div
-                  class="progress-bar progress-bar-primary"
+                  className="progress-bar progress-bar-primary"
                   role="progressbar"
                   aria-valuenow="90"
                   aria-valuemin="0"
                   aria-valuemax="100"
-                  style="width: 90%;"
+                  style={{ width: "90%" }}
                 ></div>
               </div>
 
               <strong>Content Marketing</strong>
-              <span class="pull-right">75%</span>
-              <div class="progress">
+              <span className="pull-right">75%</span>
+              <div className="progress">
                 <div
-                  class="progress-bar progress-bar-primary"
+                  className="progress-bar progress-bar-primary"
                   role="progressbar"
                   aria-valuenow="75"
                   aria-valuemin="0"
                   aria-valuemax="100"
-                  style="width: 75%;"
+                  style={{ width: "75%" }}
                 ></div>
               </div>
 
               <strong>CMS Admin</strong>
-              <span class="pull-right">70%</span>
-              <div class="progress">
+              <span className="pull-right">70%</span>
+              <div className="progress">
                 <div
-                  class="progress-bar progress-bar-primary"
+                  className="progress-bar progress-bar-primary"
                   role="progressbar"
                   aria-valuenow="70"
                   aria-valuemin="0"
                   aria-valuemax="100"
-                  style="width: 70%;"
+                  style={{ width: "70%" }}
                 ></div>
               </div>
             </div>
           </div>
 
-          <div class="col-md-4 col-sm-12">
-            <div class="about-image">
-              <img src="images/about-image.jpg" class="img-responsive" alt="" />
+          <div className="col-md-4 col-sm-12">
+            <div className="about-image">
+              <img
+                src={img}
+                className="img-responsive"
+                alt=""
+                style={{ width: 360, height: 368 }}
+              />
             </div>
           </div>
         </div>

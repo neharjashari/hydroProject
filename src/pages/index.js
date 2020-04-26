@@ -9,9 +9,9 @@ import Contact from "../components/Contact/Contact"
 export default () => (
   <Layout>
     <Header />
-    {/* <About /> */}
-    {/* <Blog /> */}
-    {/* <OurWork /> */}
+    <About />
+    <Blog />
+    <OurWork />
     <Contact />
   </Layout>
 )

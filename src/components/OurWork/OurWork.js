@@ -1,4 +1,8 @@
 import React from "react"
+import img1 from "../../images/work-image1.jpg"
+import img2 from "../../images/work-image2.jpg"
+import img3 from "../../images/work-image3.jpg"
+import img4 from "../../images/work-image4.jpg"
 
 const OurWork = () => {
   return (
@@ -13,13 +17,12 @@ const OurWork = () => {
           </div>
 
           <div className="col-md-3 col-sm-6">
-            <div className="work-thumb">
-              <a href="images/work-image1.jpg" className="image-popup">
-                <img
-                  src="images/work-image1.jpg"
-                  className="img-responsive"
-                  alt="Work"
-                />
+            <div
+              className="work-thumb"
+              style={{ width: "262.5px", height: "262.5px" }}
+            >
+              <a href={img1} className="image-popup">
+                <img src={img1} className="img-responsive" alt="Work" />
 
                 <div className="work-info">
                   <h3>Clean &amp; Minimal</h3>
@@ -30,13 +33,12 @@ const OurWork = () => {
           </div>
 
           <div className="col-md-3 col-sm-6">
-            <div className="work-thumb">
-              <a href="images/work-image2.jpg" className="image-popup">
-                <img
-                  src="images/work-image2.jpg"
-                  className="img-responsive"
-                  alt="Work"
-                />
+            <div
+              className="work-thumb"
+              style={{ width: "262.5px", height: "262.5px" }}
+            >
+              <a href={img2} className="image-popup">
+                <img src={img2} className="img-responsive" alt="Work" />
 
                 <div className="work-info">
                   <h3>Studio Bag</h3>
@@ -47,13 +49,12 @@ const OurWork = () => {
           </div>
 
           <div className="col-md-3 col-sm-6">
-            <div className="work-thumb">
-              <a href="images/work-image3.jpg" className="image-popup">
-                <img
-                  src="images/work-image3.jpg"
-                  className="img-responsive"
-                  alt="Work"
-                />
+            <div
+              className="work-thumb"
+              style={{ width: "262.5px", height: "262.5px" }}
+            >
+              <a href={img3} className="image-popup">
+                <img src={img3} className="img-responsive" alt="Work" />
 
                 <div className="work-info">
                   <h3>Frame Design</h3>
@@ -64,13 +65,12 @@ const OurWork = () => {
           </div>
 
           <div className="col-md-3 col-sm-6">
-            <div className="work-thumb">
-              <a href="images/work-image4.jpg" className="image-popup">
-                <img
-                  src="images/work-image4.jpg"
-                  className="img-responsive"
-                  alt="Work"
-                />
+            <div
+              className="work-thumb"
+              style={{ width: "262.5px", height: "262.5px" }}
+            >
+              <a href={img4} className="image-popup">
+                <img src={img4} className="img-responsive" alt="Work" />
 
                 <div className="work-info">
                   <h3>Paint Work</h3>
