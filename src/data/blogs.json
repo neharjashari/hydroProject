@@ -1,32 +1,30 @@
-{
-  "blogs": [
-    {
-      "image": "images/blog-image1.jpg",
-      "date": "December 22, 2017",
-      "title": "How To Find Out Beautiful Workspace",
-      "excerpt": "Lorem ipsum dolor sit consectetur adipiscing morbi venenatis",
-      "buttonText": "Read article"
-    },
-    {
-      "image": "images/blog-image2.jpg",
-      "date": "December 14, 2017",
-      "title": "woman sportwear",
-      "excerpt": "Lorem ipsum dolor sit consectetur adipiscing morbi venenatis",
-      "buttonText": "Read more"
-    },
-    {
-      "image": "images/blog-image3.jpg",
-      "date": "December 18, 2017",
-      "title": "new creative fashion",
-      "excerpt": "Lorem ipsum dolor sit consectetur adipiscing morbi venenatis",
-      "buttonText": "Read article"
-    },
-    {
-      "image": "images/blog-image4.jpg",
-      "date": "December 10, 2017",
-      "title": "minimalist design trend in 2018",
-      "excerpt": "Lorem ipsum dolor sit consectetur adipiscing morbi venenatis",
-      "buttonText": "View Detail"
-    }
-  ]
-}
+[
+  {
+    "image": "/static/6dde64f25c785a15356411e19a9f85f3/14b42/blog-image1.jpg",
+    "date": "December 22, 2017",
+    "title": "How To Find Out Beautiful Workspace",
+    "excerpt": "Lorem ipsum dolor sit consectetur adipiscing morbi venenatis",
+    "buttonText": "Read article"
+  },
+  {
+    "image": "/static/4e6b193cf1dfc9445ea7d68479398f0e/14b42/blog-image2.jpg",
+    "date": "December 14, 2017",
+    "title": "woman sportwear",
+    "excerpt": "Lorem ipsum dolor sit consectetur adipiscing morbi venenatis",
+    "buttonText": "Read more"
+  },
+  {
+    "image": "/static/a49909e782a10c7f90c033026dc59e00/14b42/blog-image3.jpg",
+    "date": "December 18, 2017",
+    "title": "new creative fashion",
+    "excerpt": "Lorem ipsum dolor sit consectetur adipiscing morbi venenatis",
+    "buttonText": "Read article"
+  },
+  {
+    "image": "/static/d1156fbccc30c45231900d1f80040160/14b42/blog-image4.jpg",
+    "date": "December 10, 2017",
+    "title": "minimalist design trend in 2018",
+    "excerpt": "Lorem ipsum dolor sit consectetur adipiscing morbi venenatis",
+    "buttonText": "View Detail"
+  }
+]

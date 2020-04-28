@@ -4,31 +4,8 @@ import img2 from "../../images/work-image2.jpg"
 import img3 from "../../images/work-image3.jpg"
 import img4 from "../../images/work-image4.jpg"
 import OurWorkCard from "./OutWorkCard"
-import { useStaticQuery, graphql } from "gatsby"
 
 const OurWork = () => {
-  const data = useStaticQuery(graphql`
-    query GetCards {
-      allDataJson {
-        nodes {
-          ourwork {
-            image
-            subtitle
-            title
-          }
-        }
-      }
-    }
-  `)
-
-  // console.log(data)
-
-  const cardss = []
-  data.allDataJson.nodes.forEach(card => {
-    cardss.push(card.ourwork)
-  })
-  console.log(cardss)
-
   const cards = [
     {
       id: "1",

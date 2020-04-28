@@ -6,7 +6,12 @@ const BlogCard = props => {
       <div className="media blog-thumb">
         <div className="media-object media-left">
           <a href="blog-detail.html">
-            <img src={props.image} className="img-responsive" alt="" />
+            <img
+              src={props.image}
+              className="img-responsive"
+              alt=""
+              style={{ width: "96.5%" }}
+            />
           </a>
         </div>
         <div className="media-body blog-info">

@@ -5,11 +5,12 @@ import { useStaticQuery, graphql } from "gatsby"
 const Blog = () => {
   const data = useStaticQuery(graphql`
     query GetBlogs {
-      allDataJson {
-        nodes {
-          blogs {
-            title
+      allBlogsJson {
+        edges {
+          node {
+            id
             image
+            title
             date
             excerpt
             buttonText
@@ -19,42 +20,17 @@ const Blog = () => {
     }
   `)
 
-  console.log(data)
+  function getBlogsData(data) {
+    const blogsArray = []
+    data.allBlogsJson.edges.forEach(element => {
+      blogsArray.push(element.node)
+    })
 
-  const blogs = [
-    {
-      id: "1",
-      image: "images/blog-image1.jpg",
-      date: "December 22, 2017",
-      title: "How To Find Out Beautiful Workspace",
-      excerpt: "Lorem ipsum dolor sit consectetur adipiscing morbi venenatis",
-      buttonText: "Read article",
-    },
-    {
-      id: "2",
-      image: "images/blog-image2.jpg",
-      date: "December 14, 2017",
-      title: "woman sportwear",
-      excerpt: "Lorem ipsum dolor sit consectetur adipiscing morbi venenatis",
-      buttonText: "Read more",
-    },
-    {
-      id: "3",
-      image: "images/blog-image3.jpg",
-      date: "December 18, 2017",
-      title: "new creative fashion",
-      excerpt: "Lorem ipsum dolor sit consectetur adipiscing morbi venenatis",
-      buttonText: "Read article",
-    },
-    {
-      id: "4",
-      image: "images/blog-image4.jpg",
-      date: "December 10, 2017",
-      title: "minimalist design trend in 2018",
-      excerpt: "Lorem ipsum dolor sit consectetur adipiscing morbi venenatis",
-      buttonText: "View Detail",
-    },
-  ]
+    return blogsArray
+  }
+
+  const blogs = getBlogsData(data)
+
   return (
     <section id="blog" data-stellar-background-ratio="0.5">
       <div className="container">
