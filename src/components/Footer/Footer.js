@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 
 const Footer = () => {
   return (
@@ -20,16 +21,16 @@ const Footer = () => {
               <h2>Company</h2>
               <ul className="footer-link">
                 <li>
-                  <a href="#">About Us</a>
+                  <Link to="/about">About Us</Link>
                 </li>
                 <li>
-                  <a href="#">Join our team</a>
+                  <Link to="/ourwork">Join our team</Link>
                 </li>
                 <li>
-                  <a href="#">Read Blog</a>
+                  <Link to="/blog">Read Blog</Link>
                 </li>
                 <li>
-                  <a href="#">Press</a>
+                  <Link to="/">Press</Link>
                 </li>
               </ul>
             </div>
@@ -40,13 +41,13 @@ const Footer = () => {
               <h2>Services</h2>
               <ul className="footer-link">
                 <li>
-                  <a href="#">Pricing</a>
+                  <Link to="/">Pricing</Link>
                 </li>
                 <li>
-                  <a href="#">Documentation</a>
+                  <Link to="/">Documentation</Link>
                 </li>
                 <li>
-                  <a href="#">Support</a>
+                  <Link to="/">Support</Link>
                 </li>
               </ul>
             </div>
@@ -77,17 +78,17 @@ const Footer = () => {
                 </div>
                 <ul className="social-icon">
                   <li>
-                    <a
-                      href="https://www.facebook.com/templatemo"
+                    <Link
+                      to="/"
                       className="fa fa-facebook-square"
                       attr="facebook icon"
-                    ></a>
+                    ></Link>
                   </li>
                   <li>
-                    <a href="#" className="fa fa-twitter"></a>
+                    <Link to="/" className="fa fa-twitter"></Link>
                   </li>
                   <li>
-                    <a href="#" className="fa fa-instagram"></a>
+                    <Link to="/" className="fa fa-instagram"></Link>
                   </li>
                 </ul>
               </div>

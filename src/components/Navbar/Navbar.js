@@ -20,9 +20,9 @@ const Navbar = () => {
             <span className="icon icon-bar"></span>
           </button>
 
-          <a href="index.html" className="navbar-brand">
+          <Link to="/" className="navbar-brand">
             Hydro
-          </a>
+          </Link>
         </div>
 
         <div className="navigation">
@@ -47,27 +47,27 @@ const Navbar = () => {
           <ul className="nav navbar-nav navbar-right">
             <div className="social-icons">
               <li>
-                <a href="#">
+                <Link to="/">
                   <i className="fa fa-facebook-square"></i>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#">
+                <Link to="/">
                   <i className="fa fa-twitter"></i>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#">
+                <Link to="/">
                   <i className="fa fa-instagram"></i>
-                </a>
+                </Link>
               </li>
             </div>
 
             <div>
               <li className="section-btn">
-                <a href="#" data-toggle="modal" data-target="#modal-form">
+                <Link to="/" data-toggle="modal" data-target="#modal-form">
                   Sign in / Join
-                </a>
+                </Link>
               </li>
             </div>
           </ul>
