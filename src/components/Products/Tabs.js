@@ -22,8 +22,8 @@ export default function IconLabelTabs() {
 
   const handleChange = (event, newValue) => {
     setValue(newValue)
-    console.log("############################")
-    console.log(newValue)
+    // console.log("############################")
+    // console.log(newValue)
   }
 
   return (

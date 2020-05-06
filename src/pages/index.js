@@ -5,6 +5,7 @@ import About from "../components/About/About"
 import Blog from "../components/Blog/Blog"
 import OurWork from "../components/OurWork/OurWork"
 import Contact from "../components/Contact/Contact"
+import Products from "../components/Products/AllProducts"
 
 export default () => (
   <Layout>
@@ -12,6 +13,7 @@ export default () => (
     <About />
     <Blog />
     <OurWork />
+    <Products />
     <Contact />
   </Layout>
 )

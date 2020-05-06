@@ -25,7 +25,6 @@ const Blog = () => {
     data.allBlogsJson.edges.forEach(element => {
       blogsArray.push(element.node)
     })
-
     return blogsArray
   }
 

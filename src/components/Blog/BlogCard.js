@@ -1,6 +1,34 @@
 import React from "react"
+// import { useStaticQuery, graphql } from "gatsby"
+// import BlogImage from "./BlogImage"
 
 const BlogCard = props => {
+  // const data = useStaticQuery(graphql`
+  //   query GetBlogImage {
+  //     allFile {
+  //       edges {
+  //         node {
+  //           childImageSharp {
+  //             fluid {
+  //               ...GatsbyImageSharpFluid_withWebp_tracedSVG
+  //             }
+  //           }
+  //         }
+  //       }
+  //     }
+  //   }
+  // `)
+
+  // function getBlogsImage(data) {
+  //   const images = []
+  //   data.allFile.edges.forEach(element => {
+  //     images.push(element.node)
+  //   })
+  //   return images
+  // }
+
+  // const images = getBlogsImage(data)
+
   return (
     <div className="col-md-6 col-sm-6">
       <div className="media blog-thumb">
