@@ -17,6 +17,17 @@ const Blog = () => {
           }
         }
       }
+      allFile(filter: { relativeDirectory: { eq: "blogs" } }) {
+        edges {
+          node {
+            childImageSharp {
+              fluid {
+                ...GatsbyImageSharpFluid_withWebp
+              }
+            }
+          }
+        }
+      }
     }
   `)
 
@@ -29,6 +40,21 @@ const Blog = () => {
   }
 
   const blogs = getBlogsData(data)
+
+  function getBlogsImage(data) {
+    const images = []
+    data.allFile.edges.forEach(element => {
+      images.push(element.node)
+    })
+    return images
+  }
+
+  const images = getBlogsImage(data)
+  for (var i = 0; i < images.size; i++) {
+    blogs.map(blog => {
+      blog.image = images[i]
+    })
+  }
 
   return (
     <section id="blog" data-stellar-background-ratio="0.5">
