@@ -1,6 +1,7 @@
 import React from "react"
 import BlogCard from "./BlogCard"
-import { useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql, Link } from "gatsby"
+import Button from "@material-ui/core/Button"
 
 const Blog = () => {
   const data = useStaticQuery(graphql`
@@ -56,6 +57,15 @@ const Blog = () => {
     })
   }
 
+  const [value, setValue] = React.useState(4)
+  const handleChange = event => {
+    if (value == 4) {
+      setValue(6)
+    } else {
+      setValue(4)
+    }
+  }
+
   return (
     <section id="blog" data-stellar-background-ratio="0.5">
       <div className="container">
@@ -67,7 +77,7 @@ const Blog = () => {
             </div>
           </div>
 
-          {blogs.map(blog => {
+          {blogs.slice(0, value).map(blog => {
             return (
               <BlogCard
                 id={blog.id}
@@ -81,6 +91,17 @@ const Blog = () => {
             )
           })}
         </div>
+
+        <article>
+          <Button
+            onClick={handleChange}
+            color="secondary"
+            variant="contained"
+            style={{ padding: "1rem", borderRadius: "1rem" }}
+          >
+            show more / less
+          </Button>
+        </article>
       </div>
     </section>
   )

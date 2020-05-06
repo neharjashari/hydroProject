@@ -5,7 +5,7 @@ import "./Navbar.css"
 const Navbar = () => {
   return (
     <section
-      className="navbar custom-navbar navbar-fixed-top"
+      className="navbar custom-navbar navbar-fixed-top top-nav-collapse"
       role="navigation"
     >
       <div className="container">

@@ -27,6 +27,16 @@ const AllProducts = () => {
   const {
     allContentfulProduct: { nodes: products },
   } = data
+
+  const [value, setValue] = React.useState(6)
+  const handleChange = event => {
+    if (value == 6) {
+      setValue(12)
+    } else {
+      setValue(6)
+    }
+  }
+
   return (
     <div>
       <div
@@ -37,7 +47,7 @@ const AllProducts = () => {
         <span className="line-bar">...</span>
       </div>
       <section className={styles.page}>
-        {products.map(product => {
+        {products.slice(0, value).map(product => {
           return (
             <article key={product.id}>
               <Image fluid={product.image.fluid} alt={product.title} />
@@ -52,6 +62,16 @@ const AllProducts = () => {
           )
         })}
       </section>
+      <article style={{ margin: "-4rem 0 4rem 0", textAlign: "center" }}>
+        <Button
+          onClick={handleChange}
+          color="secondary"
+          variant="contained"
+          style={{ padding: "1rem", borderRadius: "1rem" }}
+        >
+          show more / less
+        </Button>
+      </article>
     </div>
   )
 }
