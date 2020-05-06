@@ -1,37 +1,62 @@
 [
   {
+    "id": "1",
+    "author": "Nehar Jashari",
     "image": "/static/6dde64f25c785a15356411e19a9f85f3/14b42/blog-image1.jpg",
     "date": "December 22, 2017",
     "title": "How To Find Out Beautiful Workspace",
     "excerpt": "Lorem ipsum dolor sit consectetur adipiscing morbi venenatis",
+    "body": "Aliqua veniam laborum nisi reprehenderit voluptate consequat nulla et reprehenderit adipisicing tempor. Proident ipsum qui Lorem eiusmod cupidatat occaecat officia. Laborum et aliquip fugiat in officia elit veniam ipsum ipsum aute veniam. Occaecat veniam est ut et tempor duis. Aliqua magna aliqua voluptate excepteur sint enim non laboris irure. Officia proident elit culpa adipisicing.Laboris ipsum tempor do ad pariatur ea. Nulla adipisicing labore consectetur incididunt qui. Consequat officia deserunt est est cillum sunt velit.Lorem eu occaecat laborum amet officia ea sit nulla. Pariatur eu consectetur in nostrud in aliqua sint aute. Nostrud dolor consequat anim ut esse voluptate voluptate. Exercitation elit tempor duis eiusmod elit cillum enim sint irure. Esse proident ex ea labore est deserunt.Adipisicing do occaecat eu excepteur incididunt exercitation minim dolore fugiat. Velit enim et cillum consequat sit deserunt. Aute cupidatat nulla laboris eu id incididunt irure deserunt ipsum. Veniam sint deserunt magna sit. Ullamco labore esse aliqua in. Elit excepteur laborum ea non ipsum est proident in non tempor nulla.",
     "buttonText": "Read article"
   },
   {
+    "id": "2",
+    "author": "Nehar Jashari",
     "image": "/static/4e6b193cf1dfc9445ea7d68479398f0e/14b42/blog-image2.jpg",
     "date": "December 14, 2017",
     "title": "woman sportwear",
     "excerpt": "Lorem ipsum dolor sit consectetur adipiscing morbi venenatis",
+    "body": "Aliqua veniam laborum nisi reprehenderit voluptate consequat nulla et reprehenderit adipisicing tempor. Proident ipsum qui Lorem eiusmod cupidatat occaecat officia. Laborum et aliquip fugiat in officia elit veniam ipsum ipsum aute veniam. Occaecat veniam est ut et tempor duis. Aliqua magna aliqua voluptate excepteur sint enim non laboris irure. Officia proident elit culpa adipisicing.Laboris ipsum tempor do ad pariatur ea. Nulla adipisicing labore consectetur incididunt qui. Consequat officia deserunt est est cillum sunt velit.Lorem eu occaecat laborum amet officia ea sit nulla. Pariatur eu consectetur in nostrud in aliqua sint aute. Nostrud dolor consequat anim ut esse voluptate voluptate. Exercitation elit tempor duis eiusmod elit cillum enim sint irure. Esse proident ex ea labore est deserunt.Adipisicing do occaecat eu excepteur incididunt exercitation minim dolore fugiat. Velit enim et cillum consequat sit deserunt. Aute cupidatat nulla laboris eu id incididunt irure deserunt ipsum. Veniam sint deserunt magna sit. Ullamco labore esse aliqua in. Elit excepteur laborum ea non ipsum est proident in non tempor nulla.",
     "buttonText": "Read more"
   },
   {
+    "id": "3",
+    "author": "Nehar Jashari",
     "image": "/static/a49909e782a10c7f90c033026dc59e00/14b42/blog-image3.jpg",
     "date": "December 18, 2017",
-    "title": "new creative fashion",
+    "title": "New creative fashion",
     "excerpt": "Lorem ipsum dolor sit consectetur adipiscing morbi venenatis",
+    "body": "Aliqua veniam laborum nisi reprehenderit voluptate consequat nulla et reprehenderit adipisicing tempor. Proident ipsum qui Lorem eiusmod cupidatat occaecat officia. Laborum et aliquip fugiat in officia elit veniam ipsum ipsum aute veniam. Occaecat veniam est ut et tempor duis. Aliqua magna aliqua voluptate excepteur sint enim non laboris irure. Officia proident elit culpa adipisicing.Laboris ipsum tempor do ad pariatur ea. Nulla adipisicing labore consectetur incididunt qui. Consequat officia deserunt est est cillum sunt velit.Lorem eu occaecat laborum amet officia ea sit nulla. Pariatur eu consectetur in nostrud in aliqua sint aute. Nostrud dolor consequat anim ut esse voluptate voluptate. Exercitation elit tempor duis eiusmod elit cillum enim sint irure. Esse proident ex ea labore est deserunt.Adipisicing do occaecat eu excepteur incididunt exercitation minim dolore fugiat. Velit enim et cillum consequat sit deserunt. Aute cupidatat nulla laboris eu id incididunt irure deserunt ipsum. Veniam sint deserunt magna sit. Ullamco labore esse aliqua in. Elit excepteur laborum ea non ipsum est proident in non tempor nulla.",
     "buttonText": "Read article"
   },
   {
+    "id": "4",
+    "author": "Nehar Jashari",
     "image": "/static/d1156fbccc30c45231900d1f80040160/14b42/blog-image4.jpg",
     "date": "December 10, 2017",
-    "title": "minimalist design trend in 2018",
+    "title": "Minimalist design trend in 2018",
     "excerpt": "Lorem ipsum dolor sit consectetur adipiscing morbi venenatis",
+    "body": "Aliqua veniam laborum nisi reprehenderit voluptate consequat nulla et reprehenderit adipisicing tempor. Proident ipsum qui Lorem eiusmod cupidatat occaecat officia. Laborum et aliquip fugiat in officia elit veniam ipsum ipsum aute veniam. Occaecat veniam est ut et tempor duis. Aliqua magna aliqua voluptate excepteur sint enim non laboris irure. Officia proident elit culpa adipisicing.Laboris ipsum tempor do ad pariatur ea. Nulla adipisicing labore consectetur incididunt qui. Consequat officia deserunt est est cillum sunt velit.Lorem eu occaecat laborum amet officia ea sit nulla. Pariatur eu consectetur in nostrud in aliqua sint aute. Nostrud dolor consequat anim ut esse voluptate voluptate. Exercitation elit tempor duis eiusmod elit cillum enim sint irure. Esse proident ex ea labore est deserunt.Adipisicing do occaecat eu excepteur incididunt exercitation minim dolore fugiat. Velit enim et cillum consequat sit deserunt. Aute cupidatat nulla laboris eu id incididunt irure deserunt ipsum. Veniam sint deserunt magna sit. Ullamco labore esse aliqua in. Elit excepteur laborum ea non ipsum est proident in non tempor nulla.",
     "buttonText": "View Detail"
   },
   {
+    "id": "5",
+    "author": "Nehar Jashari",
     "image": "/static/d1156fbccc30c45231900d1f80040160/14b42/blog-image4.jpg",
     "date": "December 10, 2017",
-    "title": "minimalist design trend in 2018",
+    "title": "Minimalist design trend in 2018",
     "excerpt": "Lorem ipsum dolor sit consectetur adipiscing morbi venenatis",
+    "body": "Aliqua veniam laborum nisi reprehenderit voluptate consequat nulla et reprehenderit adipisicing tempor. Proident ipsum qui Lorem eiusmod cupidatat occaecat officia. Laborum et aliquip fugiat in officia elit veniam ipsum ipsum aute veniam. Occaecat veniam est ut et tempor duis. Aliqua magna aliqua voluptate excepteur sint enim non laboris irure. Officia proident elit culpa adipisicing.Laboris ipsum tempor do ad pariatur ea. Nulla adipisicing labore consectetur incididunt qui. Consequat officia deserunt est est cillum sunt velit.Lorem eu occaecat laborum amet officia ea sit nulla. Pariatur eu consectetur in nostrud in aliqua sint aute. Nostrud dolor consequat anim ut esse voluptate voluptate. Exercitation elit tempor duis eiusmod elit cillum enim sint irure. Esse proident ex ea labore est deserunt.Adipisicing do occaecat eu excepteur incididunt exercitation minim dolore fugiat. Velit enim et cillum consequat sit deserunt. Aute cupidatat nulla laboris eu id incididunt irure deserunt ipsum. Veniam sint deserunt magna sit. Ullamco labore esse aliqua in. Elit excepteur laborum ea non ipsum est proident in non tempor nulla.",
     "buttonText": "View Detail"
+  },
+  {
+    "id": "6",
+    "author": "Nehar Jashari",
+    "image": "/static/a49909e782a10c7f90c033026dc59e00/14b42/blog-image3.jpg",
+    "date": "December 18, 2017",
+    "title": "New creative fashion",
+    "excerpt": "Lorem ipsum dolor sit consectetur adipiscing morbi venenatis",
+    "body": "Aliqua veniam laborum nisi reprehenderit voluptate consequat nulla et reprehenderit adipisicing tempor. Proident ipsum qui Lorem eiusmod cupidatat occaecat officia. Laborum et aliquip fugiat in officia elit veniam ipsum ipsum aute veniam. Occaecat veniam est ut et tempor duis. Aliqua magna aliqua voluptate excepteur sint enim non laboris irure. Officia proident elit culpa adipisicing.Laboris ipsum tempor do ad pariatur ea. Nulla adipisicing labore consectetur incididunt qui. Consequat officia deserunt est est cillum sunt velit.Lorem eu occaecat laborum amet officia ea sit nulla. Pariatur eu consectetur in nostrud in aliqua sint aute. Nostrud dolor consequat anim ut esse voluptate voluptate. Exercitation elit tempor duis eiusmod elit cillum enim sint irure. Esse proident ex ea labore est deserunt.Adipisicing do occaecat eu excepteur incididunt exercitation minim dolore fugiat. Velit enim et cillum consequat sit deserunt. Aute cupidatat nulla laboris eu id incididunt irure deserunt ipsum. Veniam sint deserunt magna sit. Ullamco labore esse aliqua in. Elit excepteur laborum ea non ipsum est proident in non tempor nulla.",
+    "buttonText": "Read article"
   }
 ]

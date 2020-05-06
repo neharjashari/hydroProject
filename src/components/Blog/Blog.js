@@ -70,6 +70,7 @@ const Blog = () => {
           {blogs.map(blog => {
             return (
               <BlogCard
+                id={blog.id}
                 image={blog.image}
                 date={blog.date}
                 title={blog.title}
